@@ -4,7 +4,6 @@ import org.testng.annotations.Test;
 
 import static Pages.AddElementPage.*;
 
-
 public class AddNewElement extends BaseTest {
 
     @Test
@@ -17,7 +16,6 @@ public class AddNewElement extends BaseTest {
         openAddElementPage().addNewElement()
                             .elementIsExist()
                             .elementIsVisible();
-
     }
 
     @Test
